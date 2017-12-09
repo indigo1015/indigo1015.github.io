@@ -115,7 +115,8 @@ section h2,
     background-color: #4c4c4c;
 }
 
-
+/* Header
+--
 .relative {
     position: relative;
     background-image: url(../images/img_1.jpg);
@@ -137,7 +138,7 @@ header .main_img {
     height:00px;
     background-size:cover;
 }
-
+--*/
 
 header .profile
 {
@@ -145,9 +146,16 @@ header .profile
 
     max-width: 90%;
     margin: 0 auto;
-    padding: 0;
+ 
     color:#ffffff;
 }
+
+header .profile-icon
+{
+    margin: 50px auto;
+
+}
+
 header .site-title
 {
     font-size: 18px;
@@ -161,6 +169,7 @@ header .site-title span
     font-size: 7.0rem;
     display: block;
     color: #b662db;
+   
   
 }
 
@@ -264,6 +273,7 @@ section h2
     position: relative;
 
     display: block;
+
 }
 #works .works-box a .works-box-inner
 {
